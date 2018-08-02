@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0617E26121136C42006D8F8E /* CSURITemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = BE84571916DCC1BE00DFD1C0 /* CSURITemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0617E26921136F87006D8F8E /* libCSURITemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE84571116DCC1BE00DFD1C0 /* libCSURITemplate.a */; };
-		0617E26A21136FFE006D8F8E /* Dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0617E26521136E40006D8F8E /* Dummy.m */; };
+		0617E26B2113710B006D8F8E /* CSURITemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE84571B16DCC1BE00DFD1C0 /* CSURITemplate.m */; };
 		BE84571516DCC1BE00DFD1C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE84571416DCC1BE00DFD1C0 /* Foundation.framework */; };
 		BE84571A16DCC1BE00DFD1C0 /* CSURITemplate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE84571916DCC1BE00DFD1C0 /* CSURITemplate.h */; };
 		BE84571C16DCC1BE00DFD1C0 /* CSURITemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE84571B16DCC1BE00DFD1C0 /* CSURITemplate.m */; };
@@ -29,13 +28,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0617E25F21136B54006D8F8E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BE84570916DCC1BE00DFD1C0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BE84571016DCC1BE00DFD1C0;
-			remoteInfo = CSURITemplate;
-		};
 		BE84572816DCC1BE00DFD1C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BE84570916DCC1BE00DFD1C0 /* Project object */;
@@ -61,8 +53,6 @@
 /* Begin PBXFileReference section */
 		0617E25721136B3B006D8F8E /* CSURITemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSURITemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0617E25A21136B3B006D8F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0617E26421136E40006D8F8E /* Dummy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dummy.h; sourceTree = "<group>"; };
-		0617E26521136E40006D8F8E /* Dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dummy.m; sourceTree = "<group>"; };
 		BE84571116DCC1BE00DFD1C0 /* libCSURITemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCSURITemplate.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE84571416DCC1BE00DFD1C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BE84571816DCC1BE00DFD1C0 /* CSURITemplate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSURITemplate-Prefix.pch"; sourceTree = "<group>"; };
@@ -91,7 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0617E26921136F87006D8F8E /* libCSURITemplate.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,8 +109,6 @@
 		0617E25821136B3B006D8F8E /* CSURITemplate-Framework */ = {
 			isa = PBXGroup;
 			children = (
-				0617E26421136E40006D8F8E /* Dummy.h */,
-				0617E26521136E40006D8F8E /* Dummy.m */,
 				0617E25A21136B3B006D8F8E /* Info.plist */,
 			);
 			path = "CSURITemplate-Framework";
@@ -238,7 +225,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				0617E26021136B54006D8F8E /* PBXTargetDependency */,
 			);
 			name = "CSURITemplate-Framework";
 			productName = "CSURITemplate-Framework";
@@ -361,7 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0617E26A21136FFE006D8F8E /* Dummy.m in Sources */,
+				0617E26B2113710B006D8F8E /* CSURITemplate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,11 +370,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0617E26021136B54006D8F8E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BE84571016DCC1BE00DFD1C0 /* CSURITemplate */;
-			targetProxy = 0617E25F21136B54006D8F8E /* PBXContainerItemProxy */;
-		};
 		BE84572916DCC1BE00DFD1C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BE84571016DCC1BE00DFD1C0 /* CSURITemplate */;
