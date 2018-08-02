@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0617E25621136B3B006D8F8E"
-               BuildableName = "CSURITemplate_Framework.framework"
+               BuildableName = "CSURITemplate.framework"
                BlueprintName = "CSURITemplate-Framework"
                ReferencedContainer = "container:CSURITemplate.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0617E25621136B3B006D8F8E"
-            BuildableName = "CSURITemplate_Framework.framework"
+            BuildableName = "CSURITemplate.framework"
             BlueprintName = "CSURITemplate-Framework"
             ReferencedContainer = "container:CSURITemplate.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0617E25621136B3B006D8F8E"
-            BuildableName = "CSURITemplate_Framework.framework"
+            BuildableName = "CSURITemplate.framework"
             BlueprintName = "CSURITemplate-Framework"
             ReferencedContainer = "container:CSURITemplate.xcodeproj">
          </BuildableReference>
