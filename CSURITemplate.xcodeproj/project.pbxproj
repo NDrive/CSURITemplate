@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0617E26121136C42006D8F8E /* CSURITemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = BE84571916DCC1BE00DFD1C0 /* CSURITemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0617E26721136E5C006D8F8E /* Dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0617E26521136E40006D8F8E /* Dummy.m */; };
-		0617E26821136E60006D8F8E /* Dummy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0617E26421136E40006D8F8E /* Dummy.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0617E26921136F87006D8F8E /* libCSURITemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE84571116DCC1BE00DFD1C0 /* libCSURITemplate.a */; };
 		BE84571516DCC1BE00DFD1C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE84571416DCC1BE00DFD1C0 /* Foundation.framework */; };
 		BE84571A16DCC1BE00DFD1C0 /* CSURITemplate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE84571916DCC1BE00DFD1C0 /* CSURITemplate.h */; };
 		BE84571C16DCC1BE00DFD1C0 /* CSURITemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE84571B16DCC1BE00DFD1C0 /* CSURITemplate.m */; };
@@ -91,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0617E26921136F87006D8F8E /* libCSURITemplate.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +219,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0617E26121136C42006D8F8E /* CSURITemplate.h in Headers */,
-				0617E26821136E60006D8F8E /* Dummy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +360,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0617E26721136E5C006D8F8E /* Dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
